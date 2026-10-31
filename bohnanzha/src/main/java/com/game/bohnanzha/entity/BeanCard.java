@@ -39,13 +39,12 @@ public class BeanCard extends Base{
      * dummy methods for future implementation
      */
 
+    public int getLastSequence(CardPosition type){
+        return 0;
+    }
 
-    public void startGame(){}
+    public void addCardToDeck(CardPosition type){}
 
-    public void manageTurn(){}
 
-    public void distributeCards(){}
-
-    public void endGame(){}
 
 }

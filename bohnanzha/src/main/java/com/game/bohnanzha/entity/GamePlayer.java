@@ -8,6 +8,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -35,7 +37,7 @@ public class GamePlayer extends Base {
     @Column(name = "coins_earned")
     private int coinsEarned;
 
-    private List<BeanCard> cardsInHand;
+    private List<BeanCard> cardsInHand = new ArrayList<>();
 
     /**
      * dummy methods for future implementation

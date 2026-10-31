@@ -34,6 +34,7 @@ public class BeanField extends Base {
      * dummy methods for future implementation
      */
 
+
     public boolean canHarvest(){
         return true;
     }

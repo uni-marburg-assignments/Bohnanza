@@ -42,21 +42,12 @@ public class Game extends Base {
      */
 
 
-    public boolean canHarvest(){
-        return true;
-    }
+    public void startGame(){}
 
-    public boolean canPlant(BeanType type){
-        return true;
-    }
+    public void manageTurn(){}
 
-    public int harvestField(){
-        return 0;
-    }
+    public void distributeCards(){}
 
-    public int plantBean(BeanCard card){
-        return 0;
-    }
-
+    public void endGame(){}
 
 }
